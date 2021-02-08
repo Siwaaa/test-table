@@ -1,0 +1,18 @@
+export default {
+  'ui-checkbox': require('./Checkbox.vue').default,
+  'ui-icon': require('./Icon.vue').default,
+  'ui-paginator': require('./Paginator.vue').default,
+  'ui-positioner': require('./Positioner').default,
+  'ui-button': require('./Button.vue').default,
+  'ui-sortable-tabs': require('./SortableTabs.vue').default,
+  'ui-tab': require('./Tab.vue').default,
+  'ui-toolbar': require('./Toolbar.vue').default,
+  'ui-option': require('./Select/Option.vue').default,
+  'ui-select': require('./Select/Select.vue').default,
+  'ui-table': require('./Table/Table.vue').default,
+  'ui-sticky-container': require('./StickyContainer.vue').default,
+  'ui-modal': require('./Modal.vue').default,
+  'ui-preloader': require('./Preloader.vue').default,
+  'ui-status-panel': require('./StatusPanel.vue').default,
+  'ui-error-block': require('./ErrorBlock.vue').default,
+};
